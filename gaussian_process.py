@@ -20,6 +20,6 @@ l = 1
 sigma = 0.5
 
 covariance = kernel_function(Xtest, l, sigma)
-
+average = np.zeros(np.size(Xtest))
 
 
